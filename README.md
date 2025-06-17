@@ -25,26 +25,6 @@
 <br/>
 <br/>
 
-<details>
-<summary>🇺🇸 English</summary>
-
-# Lotteria
-Lotteria
-
-</details>
-
-<details>
-<summary>🇯🇵 日本語</summary>
-
-# ロッテリア
-ロッテリア
-
-</details>
-
-<br/>
-<br/>
-<br/>
-
 ## 목차
 
 1. [프로젝트 개요](#1-프로젝트-개요)   
