@@ -1006,11 +1006,10 @@ body {
       padding: 4px 0; display: inline-block;
     }
     .left-footer-btn{
-      margin-top: 30px;
       display: flex;
       justify-content: space-between;
       .left-btn{
-        width: 90px; height: 40px;
+        width: 100px; height: 40px;
         background-color: $Lotteria-Yellow;
         border-radius: 5px;
         transition: .3s;
