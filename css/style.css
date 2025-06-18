@@ -1783,6 +1783,7 @@ body {
 .bottom-wrap .bottom-include .left-footer {
   display: flex;
   flex-direction: column;
+  width : 450px;
 }
 .bottom-wrap .bottom-include .left-footer h4 {
   font-size: 20px;
@@ -1825,6 +1826,7 @@ body {
   display: flex;
   gap: 30px;
   align-items: center;
+  width : 450px;
 }
 .bottom-wrap .bottom-include .qr-wrap .qr-img {
   width: 100px;
