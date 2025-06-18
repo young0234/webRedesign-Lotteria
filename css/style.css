@@ -1796,6 +1796,7 @@ body {
   display: inline-block;
 }
 .bottom-wrap .bottom-include .left-footer .left-footer-btn {
+  margin-top: 0;
   display: flex;
   justify-content: space-between;
 }
