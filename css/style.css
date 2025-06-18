@@ -1775,7 +1775,7 @@ body {
 }
 .bottom-wrap .bottom-include {
   height: inherit;
-  padding: 0 100px;
+  padding: 0 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
