@@ -1,0 +1,166 @@
+/* Import Local SCSS Files */
+@import 'variables', 'reset', 'fonts', 'header', 'footer';
+
+/* common */
+body {
+  overflow-x: hidden;
+  background-color: $Lotteria-Beige;
+}
+
+.brand-inner{
+  padding-top: 250px;
+  width: 600px;
+  main{
+    .main-bg{
+      img{
+        width: 100%;
+      }
+    }
+    .main-desc{
+      height: 240px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      p{
+        position: absolute;
+        z-index: 2; font-size: 20px;
+        text-align: center;
+        line-height: 150%;
+        em{
+          font-size: 24px;
+          font-weight: bold;
+          color: $Lotteria-Red;
+        }
+      }
+      img{
+        width: 450px;
+        position: absolute;
+        right: -80px;
+      }
+    }
+  }
+  .core-value{
+    width: 100%; height: 430px; 
+    padding: 20px; box-sizing: border-box;
+    background-color: $Lotteria-Yellow;
+    .core-value-items{
+      display: flex;
+      margin-bottom: 30px;
+      &.items1{
+        justify-content: space-around;
+      }
+      &.items2{
+        justify-content: center;
+        gap: 30px;
+      }
+      .core-value-item{
+        margin-top: 15px;
+        text-align: center;
+        img{
+          width: 120px;
+          margin-bottom: 15px;
+          transition: 0.3s;
+          &:hover{
+            transform: translateY(-10px);
+          }
+        }
+        p{
+          text-align: center;
+          font-family: $Title-Font;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .num-value{
+    margin-top: 50px;
+    padding: 20px;
+    .num-value-item{
+      display: flex;
+      margin-bottom: 30px;
+      .number{
+        flex: 1;
+        strong{
+          font-size: 50px;
+          font-weight: 400;
+          color: $Lotteria-Red;
+          margin-left: -5px;
+        }
+      }
+      .num-desc{
+        flex: 7;
+        .num-desc-title{
+          border-bottom: 2px solid $Lotteria-Red;
+          padding: 10px 0;
+          h2{
+            font-size: $h4-px;
+            color: $Lotteria-Red;
+          }
+        }
+        p{
+          line-height: 20px;
+          padding: 10px 10px 10px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .left-wrap, .right-wrap{
+    display: none;
+  }
+  .center-wrap{
+    width: 100%;
+    .brand-inner{
+      width: 95%;
+      margin: 195px auto 0 auto;
+      overflow: hidden;
+      main{
+        .main-desc{
+          p{
+            font-size: 18px;
+          }
+        }
+      }
+      .core-value{
+        height: auto; 
+        .core-value-items{
+          &.items1{
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .core-value-item{
+              margin-bottom: 30px;
+              &:last-child{
+                margin-bottom: 0;
+              }
+            }
+          }
+          &.items2{
+            gap: 0;
+          }
+          .core-value-item{
+            width: 50%;
+            img{}
+            p{
+              font-size: 13px;
+              line-height: 150%;
+            }
+          }
+        }
+      }
+      .num-value{
+        .num-value-item{
+          .number{
+            strong{
+              display: block;
+              margin-top: 5px;
+              font-size: $h2-px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

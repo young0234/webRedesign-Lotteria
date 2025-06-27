@@ -1,0 +1,228 @@
+/* Import Local SCSS Files */
+@import 'variables', 'reset', 'fonts';
+
+/* 메인 헤더 영역 */
+.header{
+  width: 600px; height: 185px;
+  position: fixed;
+  border-bottom: 1px solid $White;
+  top: 0; left: 50%; transform: translateX(-50%);
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  .header-coupon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $Lotteria-Yellow;
+    span{
+      height: 50px;
+      display: block;
+      color: $Lotteria-Beige;
+      line-height: 47px;
+      b{
+        font-weight: bold;
+        color: $Lotteria-Red;
+      }
+    }
+  }
+  .header-lotteria{
+    height: 85px;
+    padding: 0 20px;
+    background-color: $White;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .menu-open-btn{
+      background-color: transparent;
+      cursor: pointer;
+      i{}
+    }
+    .header-lotteria-logo{
+      width: 205px;
+      margin-left: 30px;
+      justify-self: center;
+      a{
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .menu-btn-wrap{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      button{
+        background-color: transparent;
+        cursor: pointer;
+        &.menu-search-btn{}
+        &.menu-shopping-btn{}
+        i{
+          font-size: 30px;
+          color: $Lotteria-Red;
+        }
+      }
+    }
+  }
+  .header-category{
+    height: 50px;
+    background-color: $Lotteria-Yellow;
+    ul{
+      height: inherit;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      li{
+        flex: 1;
+        height: 100%;
+        a{
+          height: 100%;
+          display: block;
+          font-family: $Title-Font;
+          color: $White;
+          text-align: center; line-height: 50px;
+          transition: .5s;
+          &:hover{
+            color: $Lotteria-Red;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* 햄버거 버튼 클릭시 열리는 메뉴 영역 */
+.menu-aside{
+  width: 653px;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  left: 0; top: 0;
+  z-index: 100000;
+  transform: translateX(-100%);
+  background-color: $Lotteria-Brown;
+  transition: .5s;
+  &.active{
+    transform: translateX(0);
+  }
+  .menu-mypage{
+    box-sizing: border-box;
+    padding: 30px;
+    padding-top: 75px;;
+    height: 185px;
+    position: relative;
+    background-color: $Lotteria-Yellow;
+    .menu-close-btn{
+      position: absolute;
+      right: 30px; top: 75px;
+      background-color: transparent;
+      cursor: pointer;
+      &:hover i{
+        color: $Lotteria-Red;
+      }
+      i{
+        color: $Lotteria-Beige;
+        font-size: 35px;
+        transition: .5s;
+      }
+    }
+    .menu-login{
+      font-family: $Title-Font;
+      font-size: $h2-px;
+      color: $Lotteria-Beige;
+    }
+    ul{
+      margin-top: 20px;
+      display: flex;
+      gap: 30px;
+      flex-direction: row;
+      li{
+        font-weight: bold;
+        color: $Lotteria-Beige;
+        &:nth-child(even){
+          font-size: $h4-px;
+          font-weight: bold;
+        }
+        a{
+          font-size: $h4-px;
+          color: $Lotteria-Beige;
+        }
+      }
+    }
+  }
+  .menu-category{
+    > ul{
+      b{
+        box-sizing: border-box;
+        height: 100px;
+        padding: 30px;
+        display: block;
+        background-color: $Lotteria-Red;
+        font-family: $Title-Font;
+        font-size: $h3-px;
+        line-height: 40px;
+        color: $White;
+      }
+      li{
+        ul{
+          li{
+            position: relative;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            background-color: $White;
+            transition: .5s;
+            &:hover{
+              background-color: $Lotteria-Beige;
+            }
+            .menu-icon{
+              width: 50px;
+              position: absolute;
+              top: 50%; left: 30px; transform: translateY(-50%);
+              img{
+                width: 100%;
+              }
+            }
+            .menu-title{
+              width: 100%;
+              padding: 30px;
+              padding-left: 100px;
+              display: block;
+              strong{
+                font-size: $h4-px; font-weight: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .menu-help{
+    width: 100%; height: 100px;
+    position: absolute;
+    left: 0; bottom: 0;
+    background-color: $Lotteria-Yellow;
+    ul{
+      box-sizing: border-box;
+      height: 100%;
+      padding: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      li{
+        &:nth-child(even){
+          font-size: $h3-px;
+          color: $Lotteria-Beige;
+        }
+        a{
+          font-size: $h3-px;
+          color: $Lotteria-Beige;
+        }
+      }
+    }
+  }
+}
+

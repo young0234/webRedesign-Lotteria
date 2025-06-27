@@ -1,0 +1,58 @@
+/* Import Local SCSS Files */
+@import 'variables', 'reset', 'fonts';
+
+footer{
+  .footer-inner{
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    .footer-main{
+      height: 220px; width: 100%;
+      border-bottom: 1px solid rgb(189, 189, 189);
+      h4{
+        font-size: $h4-px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        i{
+          margin-left: 10px;
+        }
+      }
+      span{
+        font-size: 15px;
+        color: gray;
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+      .footer-btn{
+        margin-top: 40px;
+        width: 100%;
+        padding: 15px;
+        font-size: 1.2rem;
+        border-radius: 15px;
+        transition: 0.3s;
+        &:hover{
+          background-color: $Lotteria-Yellow;
+          color: $Lotteria-Brown;
+        }
+      }
+    }
+    p{
+      margin-top: 25px;
+      margin-bottom: 25px;
+      i{
+        margin-left: 10px;
+      }
+    }
+    .footer-btn-box{
+      a{margin-right: 5px;}
+    }
+  }
+}
+.top-btn{
+  position: fixed;
+  bottom: 40px; right: 36%;
+  z-index: 1000000;
+  img{
+    width: 70px; height: 70px;
+  }
+}
