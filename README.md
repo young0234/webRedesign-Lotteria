@@ -163,9 +163,9 @@
 ---
 
 ## 3. Read Project Details in Other Languages
-1. [English](https://github.com/dkssud-dus/webRedesign-Lotteria/blob/main/README_en.md)
-2. [한국어](https://github.com/dkssud-dus/webRedesign-Lotteria/blob/main/README_ko.md)
-3. [日本語](https://github.com/dkssud-dus/webRedesign-Lotteria/blob/main/README_ja.md)
+1. [English](https://github.com/young0234/webRedesign-Lotteria/blob/main/README_en.md)
+2. [한국어](https://github.com/young0234/webRedesign-Lotteria/blob/main/README_ko.md)
+3. [日本語](https://github.com/young0234/webRedesign-Lotteria/blob/main/README_ja.md)
 
 </br>
 </br>
@@ -191,16 +191,16 @@
 
 ### 4.3. Site URL
 #### 4.3.1. Main Page
-1. [Main Page](https://dkssud-dus.github.io/webRedesign-Lotteria/)
+1. [Main Page](https://young0234.github.io/webRedesign-Lotteria/)
 
 </br>
 </br>
 </br>
 
 #### 4.3.2. Sub Pages
-1. [Brand](https://dkssud-dus.github.io/webRedesign-Lotteria/pages/brand.html)
-2. [Menu List](https://dkssud-dus.github.io/webRedesign-Lotteria/pages/menu-list.html)
-3. Menu Detail ([Burger](https://dkssud-dus.github.io/webRedesign-Lotteria/pages/menu-burger01.html) / [Dessert](https://dkssud-dus.github.io/webRedesign-Lotteria/pages/menu-dessert01.html) / [Chicken](https://dkssud-dus.github.io/webRedesign-Lotteria/pages/menu-chicken01.html) / [Drink](https://dkssud-dus.github.io/webRedesign-Lotteria/pages/menu-drink01.html) / [Iceshot](https://dkssud-dus.github.io/webRedesign-Lotteria/pages/menu-iceShot01.html))
+1. [Brand](https://young0234.github.io/webRedesign-Lotteria/pages/brand.html)
+2. [Menu List](https://young0234.github.io/webRedesign-Lotteria/pages/menu-list.html)
+3. Menu Detail ([Burger](https://young0234s.github.io/webRedesign-Lotteria/pages/menu-burger01.html) / [Dessert](https://young0234.github.io/webRedesign-Lotteria/pages/menu-dessert01.html) / [Chicken](https://young0234.github.io/webRedesign-Lotteria/pages/menu-chicken01.html) / [Drink](https://young0234.github.io/webRedesign-Lotteria/pages/menu-drink01.html) / [Iceshot](https://young0234.github.io/webRedesign-Lotteria/pages/menu-iceShot01.html))
 
 </br>
 </br>
