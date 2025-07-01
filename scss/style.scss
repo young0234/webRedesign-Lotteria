@@ -995,6 +995,7 @@ body {
     .left-footer{
       display: flex;
       flex-direction: column;
+      width: 400px;
     h4{
       font-size: $h4-px;
       font-weight: bold;
@@ -1005,7 +1006,7 @@ body {
       padding: 4px 0; display: inline-block;
     }
     .left-footer-btn{
-      margin-top: 30px;
+      margin-top: 10px;
       display: flex;
       justify-content: space-between;
       .left-btn{
@@ -1032,9 +1033,9 @@ body {
     .qr-wrap {
     padding: 20px 0;
     display: flex;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
-  
+    width: 400px;
     .qr-img {
       width: 100px;
       height: 100px;
